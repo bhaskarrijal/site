@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>LunaQuake - NASA Space Apps Challenge 2023 - Bhaskar Rijal</title>
+        <meta name="description" content="Visualization of seismic activities on the moon using data from Apollo missions.">
+        <link rel="canonical" href="https://bhaskarrijal.me">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:url" content="https://bhaskarrijal.me">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="LunaQuake - NASA Space Apps Challenge 2023 - Bhaskar Rijal">
+        <meta property="og:description" content="Visualization of seismic activities on the moon using data from Apollo missions.">
+        <meta property="og:image" content="https://bhaskarrijal.me/docs/lunaquake/og.png">
+        <style>
+            body{line-height:1.5;font-size:16px;margin:50px auto;max-width:590px;padding:0 16px}
+        </style>	
+    </head>
+    <body>
+        <main style="margin-top:70px">
+            <header>
+                <h1 style="font-size:25px; margin-bottom:0;">
+                    LunaQuake - NASA Space Apps Challenge 2023
+                </h1>
+                <p style="margin-top:0;">
+                    a project to visualize seismic activities on the moon
+                </p>
+            </header>
+            
+            <nav>
+                <a href="/">home</a>/ 
+                <a href="https://bhaskarrijal.me/blog">blog</a>/ 
+                <a href="/philosophy.html">philosophy</a>/ 
+                <a href="/research.html">research</a>/ 
+            </nav>
+            <section>
+                <p><b>Pitch Deck</b></p>
+                <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                border-radius: 8px; will-change: transform;">
+                    <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFw4UTfdDA&#x2F;T6NTgydF7v1v5KeDZ17iYQ&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                    </iframe>
+                </div>
+                <p style="text-align: justify;">
+                    <b>High Level Summary</b>: Our moon has been visited by US-Apollo missions from 1968-1972, the seismic data retrieved from them has been visualized in 3D-environment but they lack a lot of functionalities for effective data analysis. Hence, we have developed an interactive 3D seismic event viewer app plotting animated seismic waves on a 3D globe of the Moon. We provide a user-friendly UI for exploring moonquakes and detailed information on historical seismic activities which is beneficial for analysts and moon enthusiasts.
+                </p>
+                <p>
+                    <b>Project Demo</b>: <a href="https://www.youtube.com/watch?v=NcaKNJ8wEtc" target="_blank" rel="noopener">https://www.youtube.com/watch?v=NcaKNJ8wEtc</a>
+                </p>
+                <p>
+                    <b>Final Project</b>: <a href="https://bit.ly/lunaquake" target="_blank" rel="noopener">https://bit.ly/lunaquake</a>
+                </p>
+                <p style="text-align: justify;">
+                    <b>Project Description</b>: “LunaQuake” is a project that is built upon the legacy of the Apollo missions. While the Apollo missions laid the foundation for lunar exploration, our project takes it further by enhancing our ability to analyze and understand the Moon's seismic activities. This project allows users to get an interactive three-dimensional visualization of the moon to analyze seismic activity. Our web app welcomes visitors with a splash screen by the “The Catalysts”. Our project collects data from all the Apollo missions and depicts them into user-friendly traversal patterns. The data is classified as per the Apollo missions i.e. Apollo-11,12,14,15,16.On click, the moon immediately rotates so as to exactly face to coordinates of the landing site of the mission. A brief information about the mission date, and coordinates of the landing(lats and longs) along with the seismometer’s description. Again, users can evaluate in-depth seismic activities on an exact day of the year. MH1, MH2, and Mhz can be studied by researchers and can visit the official site of NASA through us.
+                </p>
+                <img src="/docs/lunaquake/sc1_lunaquake.png" alt="LunaQuake" style="width: 100%;">
+                <p style="text-align: justify;">
+                    27 moonquakes that occurred on the surface of the moon are presented which can be pin-pointed to their exact epicenters along with their magnitudes. The “moon controls” tab includes three types of moon views namely geographical, topographical, and elevation. The rotation speed of the moon can also be adjusted for dramatic effect. The “Clear” button is provided to return to the default mode of the moon.
+                </p>
+                <img src="/docs/lunaquake/sc2_lunaquake.png" alt="LunaQuake" style="width: 100%;">
+                <p style="text-align: justify;">
+                    <b>Technologies Used</b>: React JS (Vite) for Frontend, Obspy to process seismic data from Apollo missions, ThreeJS (globe.gl) to render Moon, VSCode as an IDE, Git and GitHub for version control
+                </p>
+                <b>Space Agency Data</b>
+                <ul>
+                    <li class="project-details_link-wrap__g3qPI"><a href="https://moon.nasa.gov/resources/13/apollo-11-seismic-experiment/" target="_blank" rel="noreferrer noopener">NASA Apollo 11 Passive Seismic Experiment (part of EASEP package)</a></li><li class="project-details_link-wrap__g3qPI"><a href="https://www.hq.nasa.gov/alsj/HamishALSEP.html" target="_blank" rel="noreferrer noopener">Full Apollo EASEP and ALSEP descriptions </a></li><li class="project-details_link-wrap__g3qPI"><a href="https://pds.nasa.gov/ds-view/pds/viewBundle.jsp?identifier=urn%3Anasa%3Apds%3Aapollo_seismic_event_catalog&amp;amp;version=1.0" target="_blank" rel="noreferrer noopener">NASA's Planetary Data System (PDS) </a></li><li class="project-details_link-wrap__g3qPI"><a href="https://svs.gsfc.nasa.gov/cgi-bin/details.cgi?aid=4720" target="_blank" rel="noreferrer noopener">Scientific Visualization Studio Computer Generated Imagery (CGI) Moon Kit </a></li>
+                </ul>
+                <b>References</b>
+                <ul><li class="project-details_link-wrap__g3qPI"><a href="https://www.geological-digressions.com/seismic-experiments-and-moonquakes/ " target="_blank" rel="noreferrer noopener">Geological Digressions</a></li><li class="project-details_link-wrap__g3qPI"><a href="https://www.solarsystemscope.com/textures/" target="_blank" rel="noreferrer noopener">Solar System Scope</a></li><li class="project-details_link-wrap__g3qPI"><a href="https://astrogeology.usgs.gov/search/map/Moon/LMMP/LOLA-derived/Lunar_LRO_LOLA_ClrShade_Global_128ppd_v04" target="_blank" rel="noreferrer noopener">Astrology</a></li></ul>
+            </section>
+            <footer>
+                <details>
+                    <summary>social</summary>
+                    <nav>
+                        <a href="https://www.linkedin.com/in/bhaskarrijal" target="_blank" rel="noopener">linkedin</a>/ 
+                        <a href="https://github.com/bhaskarrijal" target="_blank" rel="noopener">github</a>/ 
+                        <a href="https://twitter.com/bhaskarijal" target="_blank" rel="noopener">twitter</a>/ 
+                        <a href="https://orcid.org/0009-0003-6186-0397" target="_blank" rel="noopener">orcid</a>/
+                        <a href="https://www.researchgate.net/profile/Bhaskar-Rijal" target="_blank" rel="noopener">researchgate</a>/
+                        <a href="https://spacehey.com/sun69" target="_blank" rel="noopener">spacehey</a>/
+                    </nav>
+                </details>
+                <p style="font-size: 12px;">
+                    bhaskar rijal &copy; 1999
+                </p>
+            </footer>
+        </main>
+    </body>
+</html>
